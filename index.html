@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form Login dan Daftar</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <main>
+      <div class="box">
+        <div class="inner-box">
+          <div class="forms-wrap">
+            <!-- Login -->
+
+            <form action="index.html" autocomplete="off" class="sign-in-form">
+              <div class="logo">
+                <img src="./img/logo.png" alt="easyclass" />
+                <h4>pianclass</h4>
+              </div>
+
+              <div class="heading">
+                <h2>Selamat datang</h2>
+                <h6>Belum punya akun?</h6>
+                <a href="#" class="toggle">Daftar</a>
+              </div>
+
+              <div class="actual-form">
+                <div class="input-wrap">
+                  <input
+                    type="text"
+                    minlength="4"
+                    class="input-field"
+                    autocomplete="off"
+                    required
+                  />
+                  <label>Nama</label>
+                </div>
+
+                <div class="input-wrap">
+                  <input
+                    type="password"
+                    minlength="4"
+                    class="input-field"
+                    autocomplete="off"
+                    required
+                  />
+                  <label>Password</label>
+                </div>
+
+                <input type="submit" value="Login" class="sign-btn" />
+
+                <p class="text">
+                  Lupa Password atau detail akun?
+                  <a href="#">Get Help</a> Login
+                </p>
+              </div>
+            </form>
+
+            <!-- Register -->
+
+            <form action="index.html" autocomplete="off" class="sign-up-form">
+              <div class="logo">
+                <img src="./img/logo.png" alt="easyclass" />
+                <h3>pianclass</h3>
+              </div>
+
+              <div class="heading">
+                <h2>Daftar</h2>
+                <h6>Sudah punya akun?</h6>
+                <a href="#" class="toggle">Login</a>
+              </div>
+
+              <div class="actual-form">
+                <div class="input-wrap">
+                  <input
+                    type="text"
+                    minlength="4"
+                    class="input-field"
+                    autocomplete="off"
+                    required
+                  />
+                  <label>Nama</label>
+                </div>
+
+                <div class="input-wrap">
+                  <input
+                    type="email"
+                    class="input-field"
+                    autocomplete="off"
+                    required
+                  />
+                  <label>Email</label>
+                </div>
+
+                <div class="input-wrap">
+                  <input
+                    type="password"
+                    minlength="4"
+                    class="input-field"
+                    autocomplete="off"
+                    required
+                  />
+                  <label>Password</label>
+                </div>
+
+                <input type="submit" value="Daftar" class="sign-btn" />
+
+                <p class="text">
+                  Dengan mendaftar, Saya setuju dengan
+                  <a href="#">Syarat dan Ketentuan</a> dan
+                  <a href="#">Kebijakan privasi</a>
+                </p>
+              </div>
+            </form>
+          </div>
+
+          <div class="carousel">
+            <div class="images-wrapper">
+              <img src="./img/image1.png" class="image img-1 show" alt="">
+              <img src="./img/image2.png" class="image img-2" alt="">
+              <img src="./img/image3.png" class="image img-3" alt="">
+            </div>
+
+            <div class="text-slider">
+              <div class="text-wrap">
+                <div class="text-group">
+                  <h2>Buat kursus Anda sendiri</h2>
+                  <h2>Sesuaikan sesuka Anda</h2>
+                  <h2>Undang siswa ke kelas Anda</h2>
+                </div>
+              </div>
+
+              <div class="bullets">
+                <span class="active" data-value="1"></span>
+                <span data-value="2"></span>
+                <span data-value="3"></span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <!-- Javascript File -->
+
+    <script src="app.js"></script>
+  </body>
+</html>
